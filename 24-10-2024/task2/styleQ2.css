@@ -1,0 +1,51 @@
+
+.intro{
+    background-color: yellow;
+    
+}
+
+.details{
+    background-color: rgb(116, 188, 6);
+}
+
+.conclusion{
+    background-color: green;
+}
+
+#txt{
+    font-size: 20px;
+    color: black;
+}
+
+#hello{
+    color: green;
+    font-size: 20px;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+nav{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+nav div{
+    list-style-type: none;
+}
+
+nav div a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+
+nav div a:hover{
+    color: blue;
+    background-color: rgb(243, 136, 7);
+}
