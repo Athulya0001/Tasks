@@ -1,0 +1,22 @@
+/* create s heading centred on the page with all of its text capitalized by default. */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Set the font family of all content in the document to "Times new Roman". */
+body{
+    font-family: 'Times New Roman';
+}
+
+/* create one div inside another div.
+Set id & text "outer" for the first one & "inner " for the second one.
+set the outer div text size to 25px & inner div text size to 10px. */
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
