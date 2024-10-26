@@ -1,0 +1,50 @@
+nav{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+div{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px 0px 5px;
+}
+.txt{
+    background-color: black;
+}
+
+.txtSub{
+    background-color: blue;
+}
+
+.txtmain{
+    background-color: rgba(220, 241, 240, 0.813);
+    color: black;
+}
+
+#inp{
+    margin-left: 700px;
+    padding: 10px;
+    margin-right: 4px;
+    border-radius: 15%;
+}
+
+#clr{
+    color: black;
+}
+
+#btn{
+    color: blue;
+    padding: 10px;
+
+}
+
+#btnSub{
+    color: white;
+    padding: 10px;
+}

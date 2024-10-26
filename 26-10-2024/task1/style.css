@@ -1,0 +1,32 @@
+div{
+    border:1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+nav{
+    border: 3px solid white;
+    background-color: black;
+    padding: 10px;
+    height: 60px;
+
+}
+
+.txtSub{
+    color: white;
+    text-decoration: none;
+    margin-right: 170px;
+    padding: 1px;
+}
+
+#txt{
+    color: orange;
+    font-size: 25px;
+}
+
+button{
+    background-color: orange;
+    padding: 5px;
+}

@@ -1,0 +1,46 @@
+
+div{
+    padding: 15px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-family: serif;
+}
+.txt{
+    margin: 0px 150px 0px 100px;
+    font-size: 20px;
+}
+.txtSub{
+    margin: 0px 100px 0px 150px;
+}
+.txtmain{
+    margin: 0px 200px 0px 200px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+ }
+
+ button{
+    background-color: rgba(66, 123, 222, 0.862);
+    border-radius: 35%;
+    padding: 10px;
+    color: white;
+ }
+
+ .txtMain{
+    margin: 0px 5px 0px 100px;
+ }
+ .txtsub{
+    margin: 0px 245 0px 5px;
+ }
+ .tXt{
+    margin: 0px 100px 0px 725px;
+ }
+ .TxtMain{
+    margin: 0px 5px 0px 540px;
+ }
+ .Txtsub{
+    margin: 0px 100px 0px 5px;
+ }
