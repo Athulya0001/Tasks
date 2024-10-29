@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 3px solid black;
+    background: url(/29-10-2024/images/download.jpeg) center center/cover;
+    width: 100vw;
+    height: 100vh;
+    font-size: 25px;
+}
+.container1{
+    border: 3px solid brown;
+    background-color: blanchedalmond;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+}
