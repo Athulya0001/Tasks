@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid brown;
+    width: 100vw;
+    height: 200px;
+    background-color: bisque;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#txt{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+
+.box1{
+    background-color: aliceblue;
+    height: 500px;
+}
+.box2{
+    background-color: antiquewhite;
+    height: 500px;
+}
+.box3{
+    background-color: beige;
+    height: 500px;
+}
