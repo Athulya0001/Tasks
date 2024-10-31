@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/31-10-2024/images/download.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.171);
+    opacity: 0.8;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+header nav span{
+    margin: 0;
+    font-size: 30px;
+}
+header nav input{
+    background-color: rgb(195, 211, 206);
+    border: 1px solid black;
+    border: 10%;
+    margin: 0px 20vw 0px 20vw;
+    padding: 10px;
+    width: 400px;
+}
+
+header nav a{
+    margin: 0px 10px 0px 70px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header nav button{
+    color: black;
+    background-color: white;
+    border: 10%;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+}
+
+.container{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.container h1{
+    font-size: 35px;
+}
+.container button{
+    padding: 15px;
+    background-color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 20px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    opacity: 1;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.527);
+    margin: 0px 10px 0px 10px;
+}
