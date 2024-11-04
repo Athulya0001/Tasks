@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 img{
     width: 100%;
@@ -15,6 +16,8 @@ nav{
     padding: 6px;
     color: white;
     padding: 10px;
+    box-sizing: border-box;
+    width: 100vw;
 }
 
 .section{
@@ -43,6 +46,8 @@ nav{
 .left-section .location span{
     font-size: 10px;
     /* padding: 5px; */
+    margin-right: 30px;
+    color: white;
 }
 .right-section .right-sub-section{
     display: flex;
@@ -53,36 +58,45 @@ nav{
 }
 .right-section .right-sub-section span{
     font-size: 14px;
-    padding: 5px;
+    /* padding: 40px; */
+    display: flex;
+    /* margin-right: 40px; */
 }
 .img{
-    width: 20px;
-    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 20px;
+    height: 20px; */
     /* display: flex; */
     padding-right: 3px;
     /* border-right: 1px solid white;
     line-height: 1px; */
 }
-/* .img a{
-    color: #FFFFFF;
-    text-decoration: none;
-} */
+.img img{
+    width: 20px;
+    height: 20px;
+}
 
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 100vw;
     height: 85px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    /* margin-left: 50px; */
 }
 .container .symbol img{
-    width: 100px;
-    height: 60px;
+    width: 90px;
+    height: 70px;
+    margin-left: 50px;
 }
 .container .menu a{
     color: black;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
+    font-size: 12px;
 }
 .searchbox{
     display: flex;
@@ -91,7 +105,7 @@ nav{
     padding: 30px;
 }
 .searchbox input{
-    width: 250px;
+    width: 150px;
     height: 15px;
     border: none;
     border-bottom: 2px solid black;
@@ -101,17 +115,21 @@ nav{
     align-items: center;
     justify-content: center;
     width: 200px;
-    border: 2px solid rgb(233, 200, 11);
+    border: 2px solid rgb(237, 210, 12);
     border-radius: 20px;
-    background-color: rgb(233, 200, 11);
+    background-color: rgb(237, 210, 12);
+    color: black;
 }
 .searchbox .box img{
     width: 30px;
     height: 30px;
 }
+.searchbox .box p{
+    font-size: 12px;
+}
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .display{
@@ -121,7 +139,7 @@ nav{
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     animation: slide 20s infinite;
 }
 
@@ -154,6 +172,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    font-size: 20px;
 }
 
 .qrbox{
@@ -163,4 +182,94 @@ nav{
     width: 100vw;
     height: 250px;
     background-color: rgb(245, 245, 150);
+    padding: 5px;
+}
+.qrbox .apps{
+    width: 490px;
+    height: 230px;
+    /* text-align: justify; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 5px;
+}
+
+.qrbox .applogos{
+    color: #333333;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrbox .applogos .code span{
+    background-color: rgb(237, 210, 12);
+    border: 1px dashed black;
+    font-size: 13px;
+}
+
+.qrbox .qr img{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrbox .qr span{
+    font-size: 12px;
+    justify-content: center;
+}
+.qrbox .logoimg{
+    width: 300px;
+    height: 180px;
+}
+
+.collection{
+    margin: auto;
+    padding: 10px;
+    color: #0E3051;
+    text-align: center;
+}
+.collection .tags{
+    /* width: 450px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+}
+.collection .tags a{
+    text-decoration: none;
+    /* margin: auto; */
+    color: #0E3051;
+    font-size: 18px;
+    /* width: 450px; */
+    
+}
+
+.discover{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover .cover{
+    padding: 8px;
+}
+.discover .cover img{
+    width: 300px;
+    height: 400px;
+}
+.discover .cover a{
+    background-color: #FFFFFF;
+    border: 1px solid white;
+    padding: 7px;
+    font-size: 14px;
+    color: #0E3051;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.discover .cover img:hover a{
+    opacity: 1;
 }
