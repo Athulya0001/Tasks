@@ -160,9 +160,7 @@ nav{
     align-items: center;
     padding: 30px;
 }
-.searchdisplay .searchimg{
-    /* border: 1px solid black; */
-}
+
 .searchdisplay .searchimg img{
     width: 200px;
     height: 200px;
@@ -300,6 +298,7 @@ nav{
     align-items: center;
     color: white;
     padding: 15px;
+    box-sizing: border-box;
 }
 .trend .image img{
     width: 271px;
@@ -309,4 +308,149 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
+
+.arrival {
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.arrival .new {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #0E3051; */
+    width: 600px;
+    height: px;
+    margin-left: 30px;
+}
+
+.arrival .new img{
+    width: 600px;
+    height: 445px;
+}
+.arrival .new #new {
+    background-color: #0E3051;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrival .new #new img{
+    width: 50px;
+    height: 50px;
+}
+.arrival .new1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+}
+.arrival .new1 div img{
+    width: 300px;
+    height: 430px;
+}
+
+section{
+    width: 100vw;
+    height: 600px;
+}
+
+section .refer{
+    width: 80vw;
+    height: 600px;
+    margin: auto;
+    border: 2px solid black;
+    /* display: flex;
+    justify-content: center; */
+}
+section .refer .earn{
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #e9b254;
+}
+section .refer .earn .refercode{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #F0C57C;
+}
+section .refer .earn .refercode .btn{
+    width: 35px;
+    height: 35px;
+}
+section .refer .earn .refercode .btn img{
+    width: 25px;
+    height: 25px;
+}
+
+.locate{
+    background-color: rgb(237, 210, 12);
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.locate #locate{
+    color: #0E3051;
+    font-size: 25px;
+    text-align: center;
+}
+.locate input{
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #0E3051;
+    border-radius: 15px;
+    background-color:rgb(237, 210, 12);
+}
+.locate a{
+    color: #0E3051;
+}
+
+.view button{
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #0E3051;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.return  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+.return div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.return div img{
+    width: 30px;
+    height: 30px;
+}
+.return div span{
+    color: #0E3051;
 }
