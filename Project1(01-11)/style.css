@@ -279,7 +279,34 @@ nav{
     width: 100vw;
     background-color: #0E3051;
 }
+.trend .txt{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
 
 .trend .txt h1{
     font-size: 25;
+    color: yellow;
+}
+.trend .txt .category a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+.trend .image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+.trend .image img{
+    width: 271px;
+    height: 407px;
+}
+.trend .image .item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
