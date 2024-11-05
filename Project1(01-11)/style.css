@@ -273,3 +273,13 @@ nav{
 .discover .cover img:hover a{
     opacity: 1;
 }
+
+.trend{
+    height: 740px;
+    width: 100vw;
+    background-color: #0E3051;
+}
+
+.trend .txt h1{
+    font-size: 25;
+}
