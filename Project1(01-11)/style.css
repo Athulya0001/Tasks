@@ -454,3 +454,21 @@ section .refer .earn .refercode .btn img{
 .return div span{
     color: #0E3051;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+    color: #0E3051;
+    font-size: 14px;
+    padding: 5px;
+} 
+
+footer .policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer .copyright{
+
+} */
