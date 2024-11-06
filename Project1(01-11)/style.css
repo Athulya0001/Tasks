@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    /* width: 100vw; */
 }
 img{
     width: 100%;
@@ -17,7 +20,7 @@ nav{
     color: white;
     padding: 10px;
     box-sizing: border-box;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .section{
@@ -80,7 +83,7 @@ nav{
 
 .container{
     /* border: 1px solid black; */
-    width: 100vw;
+    /* width: 100vw; */
     height: 85px;
     display: flex;
     justify-content: space-evenly;
@@ -138,7 +141,7 @@ nav{
     background-position: center;
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
     height: 75vh;
     animation: slide 20s infinite;
 }
@@ -153,7 +156,7 @@ nav{
 }
 
 .searchdisplay{
-    width: 90vw;
+    /* width: 90vw; */
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -177,7 +180,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    /* width: 100vw; */
     height: 250px;
     background-color: rgb(245, 245, 150);
     padding: 5px;
@@ -248,7 +251,7 @@ nav{
 }
 
 .discover{
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,7 +279,7 @@ nav{
 
 .trend{
     height: 740px;
-    width: 100vw;
+    /* width: 100vw; */
     background-color: #0E3051;
 }
 .trend .txt{
@@ -313,7 +316,7 @@ nav{
 }
 
 .arrival {
-    width: 100vw;
+    /* width: 100vw; */
     height: 750px;
     display: flex;
     justify-content: space-evenly;
@@ -358,10 +361,7 @@ nav{
     height: 430px;
 }
 
-section{
-    width: 100vw;
-    height: 600px;
-}
+
 
 section .refer{
     width: 80vw;
@@ -401,7 +401,7 @@ section .refer .earn .refercode .btn img{
 
 .locate{
     background-color: rgb(237, 210, 12);
-    width: 100vw;
+    /* width: 100vw; */
     height: 150px;
     display: flex;
     justify-content: center;
@@ -466,48 +466,27 @@ section .refer .earn .refercode .btn img{
     /* align-items */
     padding: 5px;
     color: #0E3051;
+    height: 200px;
+    border: 1px solid black;
 }
 #sec span{
     font-weight: bold;
 }
 
-section .section{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    bottom: 30px;
+.select{
+    margin: 0px 120px 0px 120px;
+    color: #0E3051;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.section span{
-    font-size: 20px;
+.select p{
+    font-size: 14px;
 }
-.section h2{
+
+.select h1{
     font-size: 18px;
 }
-footer{
-    border: 1px solid black;
-    width: 100vw;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin: 0px 40px 0px 40px;
-    color: #0E3051;
-    font-size: 14px;
-    padding: 5px;
-    /* position: relative;
-    bottom: 0px;
-    left: 0px;
-    padding: 10px; */
-} 
 
-footer .policy{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.select h2{
+    font-size: 16px;
 }
-/* footer .copyright{
-
-} */
