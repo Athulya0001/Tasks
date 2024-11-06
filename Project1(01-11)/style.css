@@ -56,14 +56,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding: 8px;
+    border-right: 1px solid white;
+    line-height: 3px;
     /* font-size: 12px;  */
 }
 .right-section .right-sub-section span{
     font-size: 14px;
     /* padding: 40px; */
     display: flex;
-    /* margin-right: 40px; */
+    padding: 5px;
+    margin-left: 4px;
 }
 .img{
     display: flex;
@@ -122,6 +125,8 @@ nav{
     border-radius: 20px;
     background-color: rgb(237, 210, 12);
     color: black;
+    padding: 3px;
+    margin-left: 15px;
 }
 .searchbox .box img{
     width: 30px;
@@ -489,4 +494,19 @@ section .refer .earn .refercode .btn img{
 
 .select h2{
     font-size: 16px;
+}
+
+.foot{
+    margin: 0px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #0E3051;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.foot .policy{
+    display: flex;
+    align-items: center;
 }
