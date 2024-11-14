@@ -185,3 +185,38 @@ a{
     margin: 60px;
     margin-bottom: 10px;
 }
+
+.box1{
+    margin: 0px 300px 0px 300px;
+}
+
+.box1 h2{
+    font-size: 18px;
+}
+.box1 #menu-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.box1 #grid-box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 40px;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 14px;
+}
+#grid-box p{
+    opacity: 0.7;
+}
+
+.box2 {
+    margin: 0px 300px 0px 300px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.box2 ul li{
+    padding: 5px;
+}
