@@ -8,6 +8,10 @@ a{
     text-decoration: none;
     color: black;
 }
+body {
+    margin: 0px 400px 0px 400px;
+    font-family: sans-serif;
+}
 
 .first nav {
     display: flex;
@@ -17,7 +21,7 @@ a{
     z-index: 1;
     /* padding: 8px; */
     height: 100%;
-    margin: 0px 80px 0px 80px;
+    /* margin: 0px 400px 0px 400px; */
 }
 
 .head .logo img {
@@ -25,10 +29,25 @@ a{
     height: 30px;
 }
 
-.txt-exp span {
-    padding: 15px;
-    color: black;
-    /* margin: 0px 20px 0px 20px; */
+.txt-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(226, 221, 221);
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px rgb(175, 172, 172);
+}
+.txt-box span{
+    font-size: 13px;
+    padding: 10px;
+    border-right: 1px solid rgb(192, 188, 188);
+    line-height: 1px;
+}
+.txt-box img {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 3px;
 }
 
 .profile {
@@ -46,16 +65,16 @@ a{
     /* padding: 10px; */
 }
 .profile #stl{
-    padding: 9px;
+    padding: 5px;
 }
 .profile #stl:hover{
     background-color: rgba(231, 231, 231, 0.911);
     border-radius: 20px;
-    padding: 9px;
+    padding: 6px;
 }
 .profile span{
-    font-size: 16px;
-    padding: 10px;
+    font-size: 14px;
+    padding: 8px;
 }
 .profile span:hover{
     background-color: rgba(231, 231, 231, 0.911);
@@ -74,7 +93,7 @@ a{
 .profile .logo-profile:hover{
     box-shadow: -4px 4px rgba(231, 231, 231, 0.911);
 }
-@media only screen and (min-width:745px) and (max-width:1128px){
+/* @media only screen and (min-width:745px) and (max-width:1128px){
     .head .logo span{
         display: none;
     }
@@ -83,4 +102,51 @@ a{
     .first nav{
         display: none;
     }
+} */
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head span {
+    font-size: 25px;
+}
+.head #icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head #icon div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.head #icon img{
+    width: 15px;
+    height: 15px;
+}
+.head #icon  a {
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: line-through;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 10px;
+}
+.img-grid img {
+    width: 250px;
+    height: 250px;
+}
+.img-grid #new {
+
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+}
+#new img {
+    width: 510px;
+    height: 520px;
 }
