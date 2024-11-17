@@ -174,7 +174,7 @@ a{
     opacity: 0.6;
 }
 .second-container{
-    margin: 0px 60px 0px 60px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(6, 250px);
     gap: 30px;
@@ -182,6 +182,29 @@ a{
 }
 .second-container p{
     opacity: 0.6;
+}
+@media only screen and (min-width:1128px){
+    .second-container{
+        grid-template-columns: repeat(4, 250px);
+    }
+}
+@media only screen and (max-width:1127px) and (min-width:944px){
+    .second-container{
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+@media only screen and (max-width:943px) and (min-width:548px){
+    .second-container{
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+@media only screen and (max-width:547px){
+    .second-container{
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+.last-container {
+    background-color: rgb(163, 159, 159);
 }
 #box{
     display: block;
@@ -230,6 +253,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(163, 159, 159);
 }
 .foot .left{
     display: flex;
